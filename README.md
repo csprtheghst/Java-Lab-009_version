@@ -16,7 +16,7 @@
     * Is the **blank** object mutable or immutable? How can you tell?
 
 ```text
-PUT ANSWER TO #2 HERE
+The point object is immutable. the p.x and p.y are accessed but not modified. the method will return a new value based on x, p.x, or p.y, it doesnt modify p by itself.
 ```
 
 ```java
@@ -47,7 +47,7 @@ public class Puzzler {
     * Explain how the return values from #3 and #4 differ.
 
 ```text
-PUT ANSWER TO #5 HERE
+findCenter returns a point that represents a location, while distance returns a double that is a numerical value
 ```
 
 ```java
@@ -87,14 +87,15 @@ Recall that aliases are two variables that refer to the same object.
     * Put the output in the text block below
 
 ```text
-PUT ANSWER TO #2 HERE
+(5, 8)
+(6, 9)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
     * Put your answer in the text block below
 
 ```text
-PUT ANSWER TO #3 HERE
+p1 and p2 arent aliased because aliasing refers to atleast 2 variables referring to the same object in memory. p1 and p2 refer to completely different point objects.
 ```
 
 ```java
